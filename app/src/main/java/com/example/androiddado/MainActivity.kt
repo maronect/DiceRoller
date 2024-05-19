@@ -105,7 +105,13 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         Text(text = "Numero de jogadas: ($totalRows)")
         Text(text = "Pontuação acumulada: ($totalResults)")
         Text(text = "Total de 6s: ($totalSix)")
-
+        Button(onClick = {
+            totalRows = 0
+            totalResults = 0
+            totalSix = 0
+        }) {
+            Text(text = stringResource(R.string.reset), fontSize = 24.sp)
+        }
     }
 
 

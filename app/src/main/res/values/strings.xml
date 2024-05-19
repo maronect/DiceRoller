@@ -1,4 +1,5 @@
 <resources>
     <string name="AndroidDado">Dice Roller</string>
     <string name="roll">Roll</string>
+    <string name="reset">Reset</string>
 </resources>
